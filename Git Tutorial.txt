@@ -10,7 +10,8 @@ git commit -am "initial comment"
 git status
 git add .
 git commit -am "initial comment" or git commit -m "initial comment"
-git pull
+git pull origin master -f
+git push origin master -f
 
 one by one
 
