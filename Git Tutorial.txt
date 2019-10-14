@@ -2,10 +2,11 @@ git init
 git status
 git add *
 git remote add origin git remote add origin https://github.com/rsrussell/(repositoryName.git)
+git push origin master or git push origin master -f
 git remote show
 git add -A(if -A add all or -a ony by one)
 git commit -am "initial comment"
-git push origin master or git push origin master -f
+
 
 one by one
 
