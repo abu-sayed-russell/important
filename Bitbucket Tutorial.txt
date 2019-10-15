@@ -1,6 +1,31 @@
 git init
 git status
 git add *
+git remote add origin or git remote add origin https://russell36@bitbucket.org/russell36/(repositoryName.git)
+git commit -am "initial comment"
+git pull origin master or git pull origin master -f
+git push origin master or git push origin master -f
+
+
+git remote show
+git add -A(if -A add all or -a ony by one)
+
+//After edit file
+git status
+git add .
+git commit -am "initial comment" or git commit -m "initial comment"
+git pull origin master -f
+git push origin master -f
+
+one by one
+
+git commit -am "initial comment"
+
+
+//another
+git init
+git status
+git add *
 git remote add origin https://russell36@bitbucket.org/russell36/sanders.git (path https://russell36@bitbucket.org/russell36/sanders.git)
 git remote show
 git add -A(if -A add all or -a ony by one)
