@@ -1,3 +1,7 @@
+//global connection
+git config --global user.name "rsrussell"
+git config --global user.email "srsohoj@gmail.com"
+//new git
 git init
 git status
 git add *
@@ -10,7 +14,7 @@ git push origin master or git push origin master -f
 git remote show
 git add -A(if -A add all or -a ony by one)
 
-//After edit file
+//Update file
 git status
 git add .
 git commit -am "initial comment" or git commit -m "initial comment"
