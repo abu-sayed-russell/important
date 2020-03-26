@@ -29,7 +29,7 @@ git commit -am "initial comment"
 //Git by branch
 
 git branch branchName
-git checkout BranchName
+git checkout BranchName or git checkout -b BranchName
 git add .
 git commit -am "initial comment" or git commit -m "initial comment"
 git push
