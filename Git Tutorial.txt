@@ -26,3 +26,13 @@ one by one
 git commit -am "initial comment"
 
 
+//Git by branch
+
+git branch branchName
+git checkout BranchName
+git add .
+git commit -am "initial comment" or git commit -m "initial comment"
+git push
+git push --set-upstream origin branchName
+
+
